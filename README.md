@@ -1,25 +1,13 @@
 
-Installation information
+Mod Information
 =======
+This mod serves to provide various updates to how the End works.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Currently, the mod only makes it so that if the Exit Portal spawns in a  
+location where there aren't any blocks, instead of only generating the 
+center bedrock pillar and it's torches at the bottom of the world, it 
+instead generates the end portal at a Y height of 64.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+This mod is primarily meant to serve as a companion mod to the adjusted End
+generation that the respective world expansion data pack has, since said
+data pack can result in the 0,0 coordinate not having any blocks.
